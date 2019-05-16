@@ -1,0 +1,97 @@
+<!----------------------------------------------------------------------------->
+
+<!-- Modify this file to define the structure of your site's main page. -->
+<!-- See https://www.w3schools.com/html/ for reference and help. -->
+
+<!----------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <noscript>
+      <div class="warning">Please enable JavaScript to view this page.</div>
+    </noscript>
+    <script>
+      $(document).ready(function(){
+        loadXMLDataInline();
+      });
+    </script>
+
+
+    <!-- ***TODO: To decide how to layout the various sections, first read -->
+    <!-- about layouts at https://www.w3schools.com/html/html_layout.asp -->
+
+
+    <!-- ***TODO: Write HTML+CSS to layout and style your site's banner. -->
+    <div class="banner">
+
+      <!-- An extremely simple banner to get you started. -->
+      Banner!
+
+    </div>
+
+
+    <!-- ***TODO: Write HTML+CSS to layout and style your site's navbar. -->
+    <div class="navbar">
+
+      <!-- A basic navbar to get you started. -->
+      <span><a href="https://www.ou.edu/">OU</a></span>
+      <span><a href="https://www.cs.ou.edu/">CS</a></span>
+
+    </div>
+
+
+    <!-- ***TODO: Write HTML+CSS to layout and style your site's sidebar. -->
+    <div class="sidebar">
+
+      <!-- Here are buttons for expanding/collapsing all items. They're -->
+      <!-- not in the specification. You can do with them what you like. -->
+      <div>
+        <button id="show-all">Show All Details</button>
+        <button id="hide-all">Hide All Details</button>
+      </div>
+
+      <br/>
+
+      <!-- This <div> receives generated HTML for the sidebar filter. It's -->
+      <!-- okay to move it and add markup around it, but keep it intact -->
+      <!-- (especially the id). -->
+      <div id="filter"></div>
+
+    </div>
+
+
+    <!-- ***TODO: Write HTML+CSS to layout and style the accordion. -->
+    <div class="accordion">
+
+      <!-- This <div> receives the generated HTML for the accordion. It's -->
+      <!-- okay to move it and add markup around it, but keep it intact -->
+      <!-- (especially the id). -->
+      <div id="items"></div>
+
+    </div>
+
+
+    <!-- ***TODO: Write HTML+CSS to layout and style your site's footer. -->
+    <div class="footer">
+
+      <!-- An extremely simple footer to get you started. -->
+      Footer!
+
+    </div>
+
+
+  </body>
+</html>
+
+<!----------------------------------------------------------------------------->

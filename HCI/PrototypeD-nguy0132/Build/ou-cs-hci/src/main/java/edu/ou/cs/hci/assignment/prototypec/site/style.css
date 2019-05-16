@@ -1,0 +1,143 @@
+/******************************************************************************/
+
+/* Modify this file to style the various elements in your site's web pages. */
+/* There are many CSS properties. Examples of common properties are below. */
+/* See https://www.w3schools.com/css/ for reference and help. */
+
+/* ***TODO: Whatever additions/changes you need to do to realize your design! */
+
+/******************************************************************************/
+/* Elements                                                                   */
+/******************************************************************************/
+
+/* For the entire body of a page. */
+body
+{
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* For images. */
+img
+{
+    box-shadow: 4px 4px 4px #606000;
+}
+
+/* For buttons. */
+button
+{
+    cursor: pointer;
+    width: 120px;
+}
+
+/* For links. */
+/* See https://www.w3schools.com/css/css_pseudo_classes.asp */
+a:link
+{
+    color: #404040;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* For links that have been visited (in the browser history). */
+a:visited
+{
+    color: #808080;
+}
+
+/* For links while the pointer is hovering over them. */
+a:hover
+{
+    color: #000000;
+}
+
+/******************************************************************************/
+/* Classes                                                                    */
+/******************************************************************************/
+
+/* For the banner (information about the site itself). */
+.banner
+{
+    background-image: linear-gradient(to bottom, #e0e0a0, #c0c080);
+    border: 1px groove #e0e0e0;
+    box-shadow: 4px 4px 4px #d0d0d0;
+    padding: 20px 20px 20px 20px;
+
+    font-size: 80px;
+    text-align: center;
+}
+
+/* For the navigation bar (links to several mainstream movie-related sites). */
+.navbar
+{
+    border: 1px dashed #e0e0e0;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 8px 0px 8px 0px;
+    text-align: center;
+}
+
+/* For the footer (site license information). */
+.footer
+{
+    border: 1px dashed #e0e0e0;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* For the sidebar (filters to go with the accordion). */
+.sidebar
+{
+    border: 1px dashed #e0e0e0;
+}
+
+/* For the accordion (central view of movies in the collection). */
+.accordion
+{
+    border: 1px dashed #e0e0e0;
+}
+
+/* For items in the accordion. */
+.item-overall
+{
+    border: 1px solid black;
+    margin: 0px 0px 0px 0px;
+}
+
+/* For the summary part of accordion items. */
+.item-summary
+{
+    background-color: #e0e0a0;
+}
+
+.item-summary:hover
+{
+    background-color: #c0c080;
+}
+
+/* For the details part of accordion items. */
+.item-details
+{
+    background-color: #ffffe0;
+    text-align: center;
+}
+
+/******************************************************************************/
+/* Special                                                                    */
+/******************************************************************************/
+
+/* For the warning that appears at the top when JavaScript is turned off. */
+.warning
+{
+    background-color: #ffff80;
+    color: #ff4040;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    padding: 4px 0px 4px 0px;
+}
+
+/******************************************************************************/
